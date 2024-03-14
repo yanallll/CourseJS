@@ -47,5 +47,11 @@ if (fullPrice > 50000) {
     alert('Что-то пошло не так');
 }
 
+// Homework 2.5
 
+function getAllServicePrices() {
+    return parseInt(servicePrice1) + parseInt(servicePrice2);
+}
+let allServicePrices = getAllServicePrices();
+console.log('Стоимость всех дополнительных услуг:', allServicePrices);
 
