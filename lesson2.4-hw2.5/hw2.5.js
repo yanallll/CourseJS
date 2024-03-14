@@ -48,10 +48,10 @@ console.log('Стоимость всех дополнительных услуг
 
 
 function getFullPrice() {
-    return screenPrice + getAllServicePrices();
+    return screenPrice + allServicePrices;
 }
 
-let fullPricenew = fullPrice = getFullPrice();
+fullPrice = getFullPrice();
 console.log('fullPrice', fullPrice);
 
 
