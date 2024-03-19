@@ -85,7 +85,7 @@ const getPercentageMessage = function(price) {
 asking()
 allServicePrices = getAllServicePrices()
 fullPrice = getFullPrice();
-servicePercentPrice = getAllServicePrices();
+servicePercentPrice = getAllServicePercentPrices();
 newTitle = getTitle();
 
 
