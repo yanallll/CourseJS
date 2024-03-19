@@ -17,17 +17,17 @@ const checkIsNumber = function(x) {
 }
 
 const asking = function() {
-titleProjects = prompt('Название проекта')
-screensValue = prompt('шаблонные, с уникальным дизайном. с анимацией')
-responsive = prompt('Респонсив на сайте?')
+   titleProjects = prompt('Название проекта')
+   screensValue = prompt('шаблонные, с уникальным дизайном. с анимацией')
+   responsive = prompt('Респонсив на сайте?')
 
 
-screenPrice = prompt('Сколько будет стоить?', 12000)
+   screenPrice = prompt('Сколько будет стоить?', 12000)
 
-while (!checkIsNumber(screenPrice) || screenPrice.trim() === '' || screenPrice === null) {
-      screenPrice = prompt('Сколько это будет стоить?', 12000)
-   } 
-   screenPrice = Number(screenPrice)
+   while (!checkIsNumber(screenPrice) || screenPrice.trim() === '' || screenPrice === null) {
+         screenPrice = prompt('Сколько это будет стоить?', 12000)
+      } 
+      screenPrice = Number(screenPrice)
 }
 
 const getAllServicePrices = function() {
@@ -91,11 +91,10 @@ newTitle = getTitle();
 
 console.log(newTitle);
 console.log(allServicePrices);
-
 console.log(fullPrice);
-
 console.log(Math.ceil(servicePercentPrice));
-console.log(getPercentageMessage(fullPrice));
+
+getPercentageMessage(fullPrice);
 
 
 
